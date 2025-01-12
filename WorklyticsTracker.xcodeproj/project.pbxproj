@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1ADBE8742CFC86D4001C8D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADBE8582CFC86D3001C8D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADBE85F2CFC86D3001C8D64;
+			remoteInfo = WorklyticsTracker;
+		};
+		1ADBE87E2CFC86D4001C8D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADBE8582CFC86D3001C8D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADBE85F2CFC86D3001C8D64;
+			remoteInfo = WorklyticsTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AA418572D041E000018538F /* ExSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ExSwift.xcodeproj; path = ../ExSwift/ExSwift.xcodeproj; sourceTree = "<group>"; };
+		1ADBE8602CFC86D3001C8D64 /* WorklyticsTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorklyticsTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADBE8732CFC86D4001C8D64 /* WorklyticsTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorklyticsTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADBE87D2CFC86D4001C8D64 /* WorklyticsTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorklyticsTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1ADBE8622CFC86D3001C8D64 /* WorklyticsTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WorklyticsTracker;
+			sourceTree = "<group>";
+		};
+		1ADBE8762CFC86D4001C8D64 /* WorklyticsTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WorklyticsTrackerTests;
+			sourceTree = "<group>";
+		};
+		1ADBE8802CFC86D4001C8D64 /* WorklyticsTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WorklyticsTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADBE85D2CFC86D3001C8D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADBE8702CFC86D4001C8D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADBE87A2CFC86D4001C8D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA418562D041E000018538F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AA418572D041E000018538F /* ExSwift.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AA418582D041E000018538F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADBE8572CFC86D3001C8D64 = {
+			isa = PBXGroup;
+			children = (
+				1ADBE8622CFC86D3001C8D64 /* WorklyticsTracker */,
+				1ADBE8762CFC86D4001C8D64 /* WorklyticsTrackerTests */,
+				1ADBE8802CFC86D4001C8D64 /* WorklyticsTrackerUITests */,
+				1AA418562D041E000018538F /* Frameworks */,
+				1ADBE8612CFC86D3001C8D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADBE8612CFC86D3001C8D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADBE8602CFC86D3001C8D64 /* WorklyticsTracker.app */,
+				1ADBE8732CFC86D4001C8D64 /* WorklyticsTrackerTests.xctest */,
+				1ADBE87D2CFC86D4001C8D64 /* WorklyticsTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADBE85F2CFC86D3001C8D64 /* WorklyticsTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADBE8872CFC86D4001C8D64 /* Build configuration list for PBXNativeTarget "WorklyticsTracker" */;
+			buildPhases = (
+				1ADBE85C2CFC86D3001C8D64 /* Sources */,
+				1ADBE85D2CFC86D3001C8D64 /* Frameworks */,
+				1ADBE85E2CFC86D3001C8D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1ADBE8622CFC86D3001C8D64 /* WorklyticsTracker */,
+			);
+			name = WorklyticsTracker;
+			packageProductDependencies = (
+			);
+			productName = WorklyticsTracker;
+			productReference = 1ADBE8602CFC86D3001C8D64 /* WorklyticsTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ADBE8722CFC86D4001C8D64 /* WorklyticsTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADBE88A2CFC86D4001C8D64 /* Build configuration list for PBXNativeTarget "WorklyticsTrackerTests" */;
+			buildPhases = (
+				1ADBE86F2CFC86D4001C8D64 /* Sources */,
+				1ADBE8702CFC86D4001C8D64 /* Frameworks */,
+				1ADBE8712CFC86D4001C8D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADBE8752CFC86D4001C8D64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1ADBE8762CFC86D4001C8D64 /* WorklyticsTrackerTests */,
+			);
+			name = WorklyticsTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = WorklyticsTrackerTests;
+			productReference = 1ADBE8732CFC86D4001C8D64 /* WorklyticsTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1ADBE87C2CFC86D4001C8D64 /* WorklyticsTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADBE88D2CFC86D4001C8D64 /* Build configuration list for PBXNativeTarget "WorklyticsTrackerUITests" */;
+			buildPhases = (
+				1ADBE8792CFC86D4001C8D64 /* Sources */,
+				1ADBE87A2CFC86D4001C8D64 /* Frameworks */,
+				1ADBE87B2CFC86D4001C8D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADBE87F2CFC86D4001C8D64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1ADBE8802CFC86D4001C8D64 /* WorklyticsTrackerUITests */,
+			);
+			name = WorklyticsTrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = WorklyticsTrackerUITests;
+			productReference = 1ADBE87D2CFC86D4001C8D64 /* WorklyticsTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADBE8582CFC86D3001C8D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					1ADBE85F2CFC86D3001C8D64 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					1ADBE8722CFC86D4001C8D64 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 1ADBE85F2CFC86D3001C8D64;
+					};
+					1ADBE87C2CFC86D4001C8D64 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 1ADBE85F2CFC86D3001C8D64;
+					};
+				};
+			};
+			buildConfigurationList = 1ADBE85B2CFC86D3001C8D64 /* Build configuration list for PBXProject "WorklyticsTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ADBE8572CFC86D3001C8D64;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1ADBE8612CFC86D3001C8D64 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1AA418582D041E000018538F /* Products */;
+					ProjectRef = 1AA418572D041E000018538F /* ExSwift.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1ADBE85F2CFC86D3001C8D64 /* WorklyticsTracker */,
+				1ADBE8722CFC86D4001C8D64 /* WorklyticsTrackerTests */,
+				1ADBE87C2CFC86D4001C8D64 /* WorklyticsTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADBE85E2CFC86D3001C8D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADBE8712CFC86D4001C8D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADBE87B2CFC86D4001C8D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADBE85C2CFC86D3001C8D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADBE86F2CFC86D4001C8D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADBE8792CFC86D4001C8D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADBE8752CFC86D4001C8D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADBE85F2CFC86D3001C8D64 /* WorklyticsTracker */;
+			targetProxy = 1ADBE8742CFC86D4001C8D64 /* PBXContainerItemProxy */;
+		};
+		1ADBE87F2CFC86D4001C8D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADBE85F2CFC86D3001C8D64 /* WorklyticsTracker */;
+			targetProxy = 1ADBE87E2CFC86D4001C8D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ADBE8852CFC86D4001C8D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ADBE8862CFC86D4001C8D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1ADBE8882CFC86D4001C8D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorklyticsTracker/WorklyticsTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorklyticsTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FQQGN8Z5PN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pardn-Ltd.WorklyticsTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1ADBE8892CFC86D4001C8D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorklyticsTracker/WorklyticsTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorklyticsTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = FQQGN8Z5PN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pardn-Ltd.WorklyticsTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1ADBE88B2CFC86D4001C8D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQQGN8Z5PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pardn-Ltd.WorklyticsTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorklyticsTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorklyticsTracker";
+			};
+			name = Debug;
+		};
+		1ADBE88C2CFC86D4001C8D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQQGN8Z5PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pardn-Ltd.WorklyticsTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorklyticsTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorklyticsTracker";
+			};
+			name = Release;
+		};
+		1ADBE88E2CFC86D4001C8D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQQGN8Z5PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pardn-Ltd.WorklyticsTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WorklyticsTracker;
+			};
+			name = Debug;
+		};
+		1ADBE88F2CFC86D4001C8D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQQGN8Z5PN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pardn-Ltd.WorklyticsTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WorklyticsTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADBE85B2CFC86D3001C8D64 /* Build configuration list for PBXProject "WorklyticsTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADBE8852CFC86D4001C8D64 /* Debug */,
+				1ADBE8862CFC86D4001C8D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADBE8872CFC86D4001C8D64 /* Build configuration list for PBXNativeTarget "WorklyticsTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADBE8882CFC86D4001C8D64 /* Debug */,
+				1ADBE8892CFC86D4001C8D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADBE88A2CFC86D4001C8D64 /* Build configuration list for PBXNativeTarget "WorklyticsTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADBE88B2CFC86D4001C8D64 /* Debug */,
+				1ADBE88C2CFC86D4001C8D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADBE88D2CFC86D4001C8D64 /* Build configuration list for PBXNativeTarget "WorklyticsTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADBE88E2CFC86D4001C8D64 /* Debug */,
+				1ADBE88F2CFC86D4001C8D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADBE8582CFC86D3001C8D64 /* Project object */;
+}
