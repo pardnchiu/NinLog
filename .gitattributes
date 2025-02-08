@@ -1,4 +1,4 @@
-"WorklyticsTracker/**" filter=git-crypt diff=git-crypt
+"NinLog/**" filter=git-crypt diff=git-crypt
 
 # 指定文件的語言，並將 .min.js 文件計入語言統計
 *.swift linguist-language=Swift

@@ -1,5 +1,6 @@
-Worklytics Tracker
+<img src="./static/image/logo.png" width="80">
 
-![](./preview/app.jpg)
+NinLog：鍵盤滑鼠追蹤
 
-MAC APP 預覽圖
+![](./static/image/cover0.jpg)
+![](./static/image/cover1.jpg)
