@@ -408,15 +408,17 @@
 				CODE_SIGN_ENTITLEMENTS = NinLog/NinLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"NinLog/Preview Content\"";
 				DEVELOPMENT_TEAM = 837FGU99PT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NinLog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NinLog;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = "需要監聽輸入事件";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "此應用程式需要存取系統事件以追蹤您的輸入行為";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,15 +441,17 @@
 				CODE_SIGN_ENTITLEMENTS = NinLog/NinLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"NinLog/Preview Content\"";
 				DEVELOPMENT_TEAM = 837FGU99PT;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NinLog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NinLog;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = "需要監聽輸入事件";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "此應用程式需要存取系統事件以追蹤您的輸入行為";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
